@@ -1,2 +1,2 @@
 # RandomPlay
-Play YouTube Channel in Random Mode
+Play YouTube Channel in Random or Program Mode Chrome Extension

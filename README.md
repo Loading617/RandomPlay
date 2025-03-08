@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="RandomPlay.png" width="300" height="300" alt="Shine">  
+	<img src="RandomPlay.png" width="300" height="300" alt="RandomPlay">  
 </p>
 
 # RandomPlay

@@ -3,13 +3,19 @@
     "name": "RandomPlay",
     "version": "1.0",
     "description": "Enhances the YouTube channel sort button to shuffle or program videos.",
-    "permissions": ["scripting"],
+    "permissions": ["scripting", "storage", "tabs"],
     "host_permissions": ["https://www.youtube.com/*"],
     "background": {
       "service_worker": "background.js"
     },
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ],
     "action": {
+      "default_popup": "popup.html",
       "default_icon": "icon.png"
     }
   }
-  
